@@ -32,25 +32,4 @@ graph TD
     H --> I[Return JSON Response]
 ```
 
-## 4. Request & Response Evaluation
-
-The current implementation relies on a hybrid approach: Machine Learning models extract the *keyphrase* and the *intent*, but the final title is constructed using hardcoded **Python string templates**.
-
-### Example 1
-* **Query:** "What is the current stock price of Apple?"
-* **Keyphrase Extracted:** "current stock price"
-* **Intents Detected:** financial query, explanation / definition
-* **Generated Title:** `Current Stock Revenue`
-
-### Example 2
-* **Query:** "How to open a diversification-focused brokerage account for beginners?"
-* **Keyphrase Extracted:** "brokerage account"
-* **Intents Detected:** explanation / definition, how to / tutorial
-* **Generated Title:** `How to brokerage account`
-
-### Example 3
-* **Query:** "Explain what is a dividend yield and how it's calculated in the stock market?"
-* **Keyphrase Extracted:** "dividend yield"
-* **Intents Detected:** financial query, explanation / definition, how to / tutorial
-* **Generated Title:** `Dividend Yield Revenue`
 
