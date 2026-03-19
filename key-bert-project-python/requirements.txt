@@ -1,0 +1,9 @@
+keybert
+keyphrase-vectorizers
+transformers
+torch
+sentence-transformers
+fastapi
+uvicorn
+spacy
+
